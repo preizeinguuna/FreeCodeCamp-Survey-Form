@@ -1,0 +1,93 @@
+/* google font */
+@import url('href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"');
+
+/* css reset */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+   font-family: 'Roboto Mono', monospace;
+    background-image: url("https://images.unsplash.com/photo-1505567745926-ba89000d255a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    color: #fff;
+    font-size: 1vw;
+   }
+
+  #heading {
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: .2rem;
+  }
+
+  #main {
+      padding: 0% 20% 0% 20%;
+  }
+
+  #title {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1.2;
+    padding: .4rem;
+  }
+
+  #description {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: .2rem;
+  }
+
+  #survey-form {
+    background-color: #2222525d;
+    padding: 3rem 2rem;
+    border-radius: 7px;
+  }
+
+  #submit {
+    background: #22d87d;
+    color: #fff;
+    padding: .5rem;
+    font-size: 1.11rem;
+    cursor: pointer;
+  }
+
+  #submit:hover {
+    background: rgb(9, 168, 89);
+  }
+
+.form {
+  width: 70%;
+  padding: .5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: none;
+}
+
+
+#dropdown-label {
+    display: block;
+}
+
+#dropdown-container {
+    margin-top: 1rem;
+}
+
+
+#dropdown-container {  
+    margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width:480px){
+
+  #main {
+    padding: 0% 0% 0% 0%;
+    }
+  }
+

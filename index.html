@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Build a Survey Form</title>
+</head>
+<body>
+    <div id="heading">
+        <h1 id="title">Music lovers</h1>
+        <p id="description">Tell me what genre of music do you listen to?</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+            <div id="input-fields">
+                <label id="name-label"><b>Name:</b></label>
+                <input id="name" type="text" name="name" class="form" required placeholder="Full Name"><br><br>
+                <label id="email-label"><b>Email:</b></label>
+                <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br><br>
+                <label id="number-label"><b>Age:</b></label>
+                <input id="number" type="number" name="age" class="form" min="5" max="99" placeholder="16+">
+            </div>
+           <div id="dropdown-container">
+    <label id="dropdown-label"><strong>Genre of music you like:</strong></label><br>
+    <select id="dropdown" name="music-genres">
+        <option value=""></option> <!-- Empty option for placeholder -->
+        <option value="pop-punk">Pop-Punk</option>
+        <option value="punk-rock">Punk-rock</option>
+        <option value="hip-hop">Hip-Hop</option>
+        <option value="reggae">Reggae</option>
+        <option value="indie">Indie</option>
+        <option value="country">Country</option>
+    </select>
+</div>
+
+<div id="radio-group-container">
+    <label id="radio-group-label"><strong>Select your preferred music genres:</strong></label><br>
+    <input type="radio" id="radio-pop" name="music-genre-choice" value="pop">
+    <label for="radio-pop">Pop-Punk</label><br>
+    <input type="radio" id="radio-pop-punk" name="music-genre-choice" value="pop-punk">
+    <label for="radio-punk-rock">Punk-rock</label><br>
+    <input type="radio" id="radio-hip-hop" name="music-genre-choice" value="hip-hop">
+    <label for="radio-hip-hop">Hip-Hop</label><br>
+    <input type="radio" id="radio-reggae" name="music-genre-choice" value="reggae">
+    <label for="radio-reggae">Reggae</label><br>
+    <input type="radio" id="radio-indie" name="music-genre-choice" value="indie">
+    <label for="radio-indie">Indie</label><br>
+    <input type="radio" id="radio-country" name="music-genre-choice" value="country">
+    <label for="radio-country">Country</label><br><br>
+</div>
+
+            
+            <label id="checkbox-group-label">Select your favorit artist:</label><br>
+            <input type="checkbox" id="checkbox-artist" name="interest" value="music-artist">
+            <label for="checkbox-web">Modsun</label><br>
+            <input type="checkbox" id="checkbox-artist" name="interest" value="music-artist">
+            <label for="checkbox-data">Machine Gun Kelly</label><br>
+            <input type="checkbox" id="checkbox-artist" name="interest" value="music-artist">
+            <label for="checkbox-mobile">Blackbear</label><br>
+            <input type="checkbox" id="checkbox-artist" name="interest" value="music-artist">
+             <label for="checkbox-mobile">Olivia Rodriges</label><br>
+            <input type="checkbox" id="checkbox-artist" name="interest" value="music-artist">
+            <label for="checkbox-mobile">Youngblud</label><br><br>
+            
+            <label id="bio-label"><strong>Provide a bio:</strong></label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
